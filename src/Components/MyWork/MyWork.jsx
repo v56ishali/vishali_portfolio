@@ -57,6 +57,14 @@ const MyWork = () => {
       technologies: ["Python", "HuggingFace", "StreamLit", "Gradio", "Transformers"],
       sourceLink: "https://github.com/v56ishali/My_Generative_AI",
       demoLink: "https://huggingface.co/vishali-056/spaces"
+    },
+    {
+      title: "Time Table Generator",
+      description: "A smart Time Table Generator that automates academic scheduling by creating optimized and conflict-free timetables based on user-defined constraints. Built with React, Node.js, Express, MongoDB, and Tailwind CSS, the application streamlines timetable management through an intuitive interface, efficient scheduling logic, and PDF export functionality.",
+      image: genaiImg,
+      technologies: ["React", "Tailwind.CSS", "Node.js", "Express.js", "MongoDB"],
+      sourceLink: "https://github.com/v56ishali/TimeTable_Generator",
+      demoLink: "https://time-table-generator-pi.vercel.app/"
     }
   ];
 
