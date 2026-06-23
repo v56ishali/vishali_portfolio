@@ -1,8 +1,7 @@
 import React from 'react';
 import { MdPermContactCalendar, MdEmail } from "react-icons/md";
-import { FaPhoneAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { SiLeetcode } from "react-icons/si";
 
 const Contact = () => {
     return (
@@ -13,12 +12,14 @@ const Contact = () => {
                     <span className="text-lg md:text-xl font-semibold tracking-wide">CONTACT</span>
                 </button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-                <div className="border border-purple-400 rounded-2xl shadow-lg p-8 hover:scale-105 transition-transform duration-300 bg-black/40 backdrop-blur-lg">
-                    <h3 className="text-2xl font-bold text-violet-400 mb-6 text-center">
+            
+            <div className="max-w-2xl mx-auto">
+                <div className="border border-purple-400 rounded-2xl shadow-lg p-8 hover:scale-105 transition-transform duration-300 bg-black/40 backdrop-blur-lg flex flex-col items-center">
+                    <h3 className="text-2xl font-bold text-violet-400 mb-8 text-center">
                         Contact Information
                     </h3>
-                    <div className="space-y-6">
+                    
+                    <div className="space-y-6 w-full flex flex-col items-start md:items-center">
                         <div className="flex items-center gap-4">
                             <MdEmail className="text-purple-400 text-4xl border border-purple-400 p-2 rounded-full shadow-md hover:bg-purple-400/10 transition" />
                             <p className="text-lg">
@@ -33,20 +34,7 @@ const Contact = () => {
                                 </a>
                             </p>
                         </div>
-                        <div className="flex items-center gap-4">
-                            <FaPhoneAlt className="text-purple-400 text-4xl border border-purple-400 p-2 rounded-full shadow-md hover:bg-purple-400/10 transition" />
-                            <p className="text-lg">
-                                <span className="font-semibold">Phone: </span>
-                                <a
-                                    href="https://wa.me/919500210143"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:text-violet-300 transition"
-                                >
-                                    +91 95002 10143
-                                </a>
-                            </p>
-                        </div>
+                        
                         <div className="flex items-center gap-4">
                             <FaLocationDot className="text-purple-400 text-4xl border border-purple-400 p-2 rounded-full shadow-md hover:bg-purple-400/10 transition" />
                             <p className="text-lg">
@@ -62,13 +50,8 @@ const Contact = () => {
                             </p>
                         </div>
                     </div>
-                </div>
 
-                <div className="border border-purple-400 rounded-2xl shadow-lg p-8 hover:scale-105 transition-transform duration-300 bg-black/40 backdrop-blur-lg flex flex-col justify-center items-center">
-                    <h3 className="text-2xl font-bold text-violet-400 mb-6">
-                        Social Profiles
-                    </h3>
-                    <div className="flex gap-6">
+                    <div className="flex gap-6 mt-10">
                         <a
                             href="https://github.com/v56ishali"
                             target="_blank"
@@ -76,14 +59,6 @@ const Contact = () => {
                             className="text-purple-400 text-5xl border border-purple-400 p-3 rounded-full shadow-md hover:bg-purple-400 hover:text-white transition duration-300"
                         >
                             <FaGithub />
-                        </a>
-                        <a
-                            href="https://huggingface.co/vishali-056/spaces"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-purple-400 text-5xl border border-purple-400 p-3 rounded-full shadow-md hover:bg-purple-400 hover:text-white transition duration-300"
-                        >
-                            <SiLeetcode />
                         </a>
                         <a
                             href="https://www.linkedin.com/in/s-vishali-4718b92b4/"
