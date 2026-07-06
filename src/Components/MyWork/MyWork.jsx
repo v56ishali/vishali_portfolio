@@ -35,14 +35,14 @@ const MyWork = () => {
       sourceLink: "https://github.com/v56ishali/Dual_prompt_image-text_matching",
       demoLink: "https://huggingface.co/spaces/vishali-056/Dual_Prompt"
     },
-    {
-      title: "Agri Shield",
-      description: "A web application designed to empower farmers by predicting loan eligibility based on their geographic location. Built with Python and Flask, AgriShield bridges the gap between rural agricultural communities and financial accessibility — helping farmers understand their borrowing potential through a simple, intuitive interface.",
-      image: agrishieldImg,
-      technologies: ["Python", "Flask", "Geolocation", "FinTech"],
-      sourceLink: "https://github.com/v56ishali/Agri_Shield",
-      demoLink: "https://huggingface.co/spaces/vishali-056/GeoLocation_IP"
-    },
+    // {
+    //   title: "Agri Shield",
+    //   description: "A web application designed to empower farmers by predicting loan eligibility based on their geographic location. Built with Python and Flask, AgriShield bridges the gap between rural agricultural communities and financial accessibility — helping farmers understand their borrowing potential through a simple, intuitive interface.",
+    //   image: agrishieldImg,
+    //   technologies: ["Python", "Flask", "Geolocation", "FinTech"],
+    //   sourceLink: "https://github.com/v56ishali/Agri_Shield",
+    //   demoLink: "https://huggingface.co/spaces/vishali-056/GeoLocation_IP"
+    // },
     {
       title: "Machine Learning Projects",
       description: "A hands-on collection of machine learning projects spanning classification, regression, and computer vision. Built using Python with Scikit-learn, TensorFlow/Keras, and OpenCV, these projects demonstrate end-to-end ML workflows — from data preprocessing and exploratory analysis to model training and evaluation.",
