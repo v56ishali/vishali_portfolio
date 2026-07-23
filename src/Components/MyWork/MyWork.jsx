@@ -28,6 +28,14 @@ const MyWork = () => {
       demoLink: "https://construction-site-selection-7wo8.onrender.com"
     },
     {
+      title: "Vishu's Dance Academy",
+      description: "A web application designed to empower dance academies, trainers, and students by automating admissions and scheduling. Built with React, Node.js, and MongoDB, Vishu's Dance Academy bridges the gap between aspiring dancers, trainers, and administrative management — helping studios streamline enrollment and class organization through a simple, intuitive interface.",
+      image: danceImg,
+      technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+      sourceLink: "https://github.com/v56ishali/Vishu_Dance_Academy",
+      demoLink: "https://vishu-dance-academy.vercel.app/"
+    },
+    {
       title: "Dual-Prompt Text–Image Matching Framework Using CLIP",
       description: "A multimodal AI system that detects fake news and manipulated incident reports by cross-validating text and images in real time. Combines NLP and computer vision using CLIP, BLIP-2, and spaCy — achieving 89.3% authenticity detection accuracy, outperforming baseline methods by 15.7%.",
       image: dualpromptImg,
@@ -35,14 +43,14 @@ const MyWork = () => {
       sourceLink: "https://github.com/v56ishali/Dual_prompt_image-text_matching",
       demoLink: "https://huggingface.co/spaces/vishali-056/Dual_Prompt"
     },
-    // {
-    //   title: "Agri Shield",
-    //   description: "A web application designed to empower farmers by predicting loan eligibility based on their geographic location. Built with Python and Flask, AgriShield bridges the gap between rural agricultural communities and financial accessibility — helping farmers understand their borrowing potential through a simple, intuitive interface.",
-    //   image: agrishieldImg,
-    //   technologies: ["Python", "Flask", "Geolocation", "FinTech"],
-    //   sourceLink: "https://github.com/v56ishali/Agri_Shield",
-    //   demoLink: "https://huggingface.co/spaces/vishali-056/GeoLocation_IP"
-    // },
+    {
+      title: "Time Table Generator",
+      description: "A smart Time Table Generator that automates academic scheduling by creating optimized and conflict-free timetables based on user-defined constraints. Built with React, Node.js, Express, MongoDB, and Tailwind CSS, the application streamlines timetable management through an intuitive interface, efficient scheduling logic, and PDF export functionality.",
+      image: timetableImg,
+      technologies: ["React", "Tailwind.CSS", "Node.js", "Express.js", "MongoDB"],
+      sourceLink: "https://github.com/v56ishali/TimeTable_Generator",
+      demoLink: "https://time-table-generator-pi.vercel.app/"
+    },
     {
       title: "Machine Learning Projects",
       description: "A hands-on collection of machine learning projects spanning classification, regression, and computer vision. Built using Python with Scikit-learn, TensorFlow/Keras, and OpenCV, these projects demonstrate end-to-end ML workflows — from data preprocessing and exploratory analysis to model training and evaluation.",
@@ -58,14 +66,6 @@ const MyWork = () => {
       technologies: ["Python", "HuggingFace", "StreamLit", "Gradio", "Transformers"],
       sourceLink: "https://github.com/v56ishali/My_Generative_AI",
       demoLink: "https://huggingface.co/vishali-056/spaces"
-    },
-    {
-      title: "Time Table Generator",
-      description: "A smart Time Table Generator that automates academic scheduling by creating optimized and conflict-free timetables based on user-defined constraints. Built with React, Node.js, Express, MongoDB, and Tailwind CSS, the application streamlines timetable management through an intuitive interface, efficient scheduling logic, and PDF export functionality.",
-      image: timetableImg,
-      technologies: ["React", "Tailwind.CSS", "Node.js", "Express.js", "MongoDB"],
-      sourceLink: "https://github.com/v56ishali/TimeTable_Generator",
-      demoLink: "https://time-table-generator-pi.vercel.app/"
     }
   ];
 
