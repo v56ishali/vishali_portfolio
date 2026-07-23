@@ -8,7 +8,7 @@ import genaiImg from '../../assets/genai.png';
 import dualpromptImg from '../../assets/dualprompt.png';
 import mlImg from '../../assets/ml.png';
 import timetableImg from '../../assets/timetable.png';
-import danceImg from '../../assets/danceImg.jpg';
+import danceImg from '../../assets/danceImg.png';
 
 const MyWork = () => {
   const projects = [
